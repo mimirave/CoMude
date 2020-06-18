@@ -1,0 +1,24 @@
+{
+  "name": "CoMude",
+  "version": "1.0",
+  "permissions": [ "storage", "tabs", "contextMenus", "history", "http://www.google.com/", "https://*/" ],
+ "manifest_version": 2,
+  "minimum_chrome_version": "23",
+
+
+  "description": "Let's talk about the mood in here.",
+  "background": {
+    "scripts": [ "background.js" ],
+    "persistent": false
+  },
+
+  "icons": { "64": "favicon.png" },
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "CoMude! Tell us how you're doing."
+
+  }
+
+  
+}

@@ -1,0 +1,9 @@
+{
+  "name": "co-mude",
+  "version": "0.0.0",
+  "description": "CoMude",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+
+</head>
+<body>
+    <style>
+        label{
+            display: block;
+            margin-bottom: auto;
+            margin-top: auto; 
+            margin-left: auto;
+            margin-right: auto;
+            color: mediumblue;
+        }
+    </style>
+    <script src="game.js"></script>
+    <h1>Let's make a special bookmark!</h1>
+    <p>This bookmark is special, because is it a key. If and when you may find yourself in a dangerous situation, add this bookmark, and you will get help.</p>
+    <div>
+        <form action="chrome://bookmarks/">
+            <label for="keywords">Enter the special name of your bookmark to be used:</label>
+            <input type="text" id="txt" name="keyword" /><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>
+
