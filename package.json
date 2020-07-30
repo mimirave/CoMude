@@ -1,9 +1,14 @@
 {
-  "name": "co-mude",
-  "version": "0.0.0",
-  "description": "CoMude",
-  "main": "server.js",
-  "author": {
-    "name": ""
+  "name": "comude",
+  "version": "1.0.0",
+  "description": "This is a Chrome Extension which helps to report domestic abuse situations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mimi Rave",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

@@ -5,12 +5,10 @@ img {
     border: ridge;
     border-color: black;
     z-index: -1;
-    opacity: 0.65;
 }
 
 body{
-    background-color: darkslategrey;
-    position: relative; 
+    background-color: lightgoldenrodyellow;
 }
 
 h1 {
@@ -46,14 +44,18 @@ label {
 div {
     background-color: lightgrey;
     left: 50%;
-    top: 60%;
+    margin-top: -300px;
+    top: 50%;
     width: 80px;
     border: 15px solid mediumpurple;
     padding: 50px;
+    margin: 20px;
     position: absolute;
+    margin-left: 50%;
     display: inline-block;
     text-align: center;
-
+    margin-left: 26%;
+    margin-right: 50%;
 }
 .box {
     background-color: lightgrey;
@@ -61,6 +63,6 @@ div {
     padding: 6px;
     margin: 2px;
     display: inline-block;
-    margin-left: 40px; 
+    margin-left: 40px;
     text-align: center;
 }

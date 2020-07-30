@@ -9,28 +9,25 @@
 </head>
 <body style="background-color:aquamarine">
     <style>
-        label{
+        label {
             display: block;
             margin-bottom: auto;
-            margin-top: auto; 
+            margin-top: auto;
             margin-left: auto;
             margin-right: auto;
             color: mediumblue;
         }
-
-        
-
     </style>
-    <script src="game.js"></script>
     <h1>Let's make a special bookmark!</h1>
     <p>This bookmark is special, because is it a key. If and when you may find yourself in a dangerous situation, add this bookmark, and you will get help.</p>
     <div>
-        <form action="chrome://bookmarks/">
+        <form>
             <label for="keywords">Enter the special name of your bookmark to be used:</label>
             <input type="text" id="txt" name="keyword" /><br><br>
             <input type="submit" value="Submit">
         </form>
     </div>
+    <script src="game.js"></script>
 
 </body>
 </html>
