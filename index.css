@@ -1,0 +1,47 @@
+
+
+
+.box {
+    position: sticky;
+    left: 34%;
+    border-color: aqua;
+    border-width: 15px;
+    padding: 6px;
+    margin: auto;
+    display: inline-block;
+}
+
+    .box .bkmark {
+        position: absolute;
+        margin: auto;
+        left: 26%;
+        top: 90%;
+    }
+    .box .text {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+    }
+
+        .box .text .nestedtext {
+            position: absolute;
+            margin: auto;
+            right: 30%;
+        }
+
+a:link, a:visited {
+    background-color: #87d9ff;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #6bd0ff;
+}
