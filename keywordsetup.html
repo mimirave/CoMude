@@ -25,6 +25,10 @@
         <form>
             <label for="keywords">Enter the special name of your keyword to be used:</label>
             <input type="text" id="txt" name="keyword" /><br><br>
+            <script type="text/javascript">
+                let keyword = document.getElementById('txt').value;
+                localStorage.setItem('keyword', JSON.stringify(keyword));
+            </script>
             <input type="submit">
         </form>
     </div>
