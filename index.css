@@ -52,7 +52,8 @@ section {
 	margin: auto;
 	position: absolute;
 	bottom: 50%;
-	color: #6bd0ff;
+	left: 50%;
+	background-color: #6bd0ff;
 	display: inline-block; 
 }
 
