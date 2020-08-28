@@ -12,11 +12,11 @@ if (sessionStorage.getItem('levelOneANS') === null) {
     sessionStorage.setItem('levelOneANS', JSON.stringify(levelOneANS));
 } else {
 // Get elements from sessionStorage 
-var levelOneANS = JSON.parse(sessionStorage.getItem('levelOneANS'));
+var tempArr = JSON.parse(sessionStorage.getItem('levelOneANS'));
 // Add element to array
-levelOneANS.push(data);
+tempArr.push(data);
 // Re-set back to sessionStorage 
-sessionStorage.setItem('levelOneANS', JSON.stringify(levelOneANS));
+sessionStorage.setItem('levelOneANS', JSON.stringify(tempArr));
   }
 }
 
