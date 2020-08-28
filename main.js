@@ -1,24 +1,23 @@
-let reponses = new Array(new Array()); 
-
-
+var levelOne = [];
+var levelTwo = [];
+var levelThree = [];
 
 function myFunction(data) {
   // Get the existing data
-if (sessionStorage .getItem('responses') === null) {
+if (sessionStorage.getItem('levelOne') === null) {
     //Initialize the array 
-    var responses= [];
-    var responses[] = []; 
+    var levelOne= []; 
     //Add to array
-    rotation[].push(object);
+    levelOne.push(data);
     //Set to sessionStorage 
-    sessionStorage .setItem('responses', JSON.stringify(responses));
+    sessionStorage.setItem('levelOne', JSON.stringify(levelOne));
 } else {
 // Get elements from sessionStorage 
-var rotation = JSON.parse(sessionStorage .getItem('rotation'));
+var levelOne = JSON.parse(sessionStorage.getItem('levelOne'));
 // Add element to array
-rotation.push(data);
+levelOne.push(data);
 // Re-set back to sessionStorage 
-sessionStorage .setItem('responses', JSON.stringify(responses));
+sessionStorage.setItem('levelOne', JSON.stringify(levelOne));
   }
 }
 
