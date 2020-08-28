@@ -6,9 +6,9 @@ function myFunction(data) {
   // Get the existing data
 if (sessionStorage .getItem('responses') === null) {
     //Initialize the array 
-    var responses= [][];
+    var responses= [];
     //Add to array
-    rotation[0].push(object);
+    rotation.push(object);
     //Set to sessionStorage 
     sessionStorage .setItem('responses', JSON.stringify(responses));
 } else {
