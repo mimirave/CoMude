@@ -14,15 +14,17 @@
         </div><br><br>
         <section>
         <button onclick="store()" type="button" id="yes">Yes</button>
-        <button onclick="store()" type="button" id="no">No</button>           
+        <button onclick="store1()" type="button" id="no">No</button>           
 <script  type="text/javascript">
   function store(){
      var ans= document.getElementById("response");
-     localStorage.setItem("response", id);
+     sessionStorage.setItem("levelX", 1);
     }
+   function store1(){
+       var ans = document.getElementById("response");
+       sessionStorage.setItem("levelY", 0);
+   }
 </script>
-
-        
         </section>
         
         <div class="bkmark">
