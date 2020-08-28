@@ -46,6 +46,12 @@ a:hover, a:active {
     background-color: #6bd0ff;
 }
 
+.button{
+	font-size: 24px;
+	background-color: lightpurple;
+	text-align: center;
+	display: inline-block; 
+
 section {
 	border: 10px;
 	padding: 3px;
