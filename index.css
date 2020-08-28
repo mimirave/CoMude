@@ -14,7 +14,7 @@
     .box .bkmark {
         position: absolute;
         margin: auto;
-        left: 25%;
+        left: 26%;
         top: 90%;
     }
     .box .text {
@@ -45,3 +45,14 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: #6bd0ff;
 }
+
+.section{
+	border: 10px;
+	padding: 3px;
+	margin: auto;
+	position: absolute;
+	bottom: 50%;
+	color: #6bd0ff;
+	display: inline-block; 
+}
+
