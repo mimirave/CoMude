@@ -11,14 +11,20 @@
         <img src="wave.jpg" alt="Here's the game.." width="450" height="650">
         <div class="text">
             <h1>Comude</h1>
-        </div>
+        </div><br><br>
         <section>
-            <form class="searchForm" method="post" onsubmit="alert('Record Updated');">
-        What's your best answer?
-        <button type="submit" id="yesButton">Yes</button><br>
-        <button type="submit" id="noButton">No</button><br>
-            </form>
+        <button onclick="store()" type="button" id="yes">Yes</button>
+        <button onclick="store()" type="button" id="no">No</button>           
+<script  type="text/javascript">
+  function store(){
+     var ans= document.getElementById("response");
+     localStorage.setItem("response", button.id);
+    }
+</script>
+
+        
         </section>
+        
         <div class="bkmark">
             <a href="keywordsetup.html" target="_blank">Create a custom bookmark!</a>
         </div>
