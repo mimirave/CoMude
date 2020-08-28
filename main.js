@@ -5,6 +5,10 @@ sessionStorage.setItem("Mild", JSON.stringify(levelOnePrompt));
 sessionStorage.setItem("Medium", JSON.stringify(levelTwoPrompt));
 sessionStorage.setItem("Intense", JSON.stringify(levelTheePrompt));
 
+function startFunction(){
+  
+}
+
 function myFunction(data) {
   // Get the existing data
 if (sessionStorage.getItem('levelOneANS') === null) {
