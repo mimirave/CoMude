@@ -1,14 +1,14 @@
-var levelOne = ["In general, do you feel sad?", "Did you eat breakfast today?", "Are you safe?"];
-var levelTwo = [];
-var levelThree = [];
+let levelOnePrompt = ["In general, do you feel sad?", "Did you eat breakfast today?", "Are you safe?"];
+sessionStorage.setItem("Mild", JSON.stringify(levelOnePrompt));
+let levelOneANS = [];
 
 function myFunction(data) {
   // Get the existing data
-if (sessionStorage.getItem('levelOne') === null) {
+if (sessionStorage.getItem('levelOneANS') === null) {
     //Initialize the array 
-    var levelOne= []; 
+    var levelOneANS= []; 
     //Add to array
-    levelOne.push(data);
+    levelOneANS.push(data);
     //Set to sessionStorage 
     sessionStorage.setItem('levelOne', JSON.stringify(levelOne));
 } else {
