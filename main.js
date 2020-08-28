@@ -10,6 +10,6 @@ existing = existing ? existing.split(',') : [];
 existing.push(data);
 
 // Save back to localStorage
-localStorage.setItem('responses', existing.toString());
+sessionStorage.setItem('responses', existing.toString());
 }
 
