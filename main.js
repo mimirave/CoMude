@@ -10,14 +10,14 @@ if (sessionStorage.getItem('levelOneANS') === null) {
     //Add to array
     levelOneANS.push(data);
     //Set to sessionStorage 
-    sessionStorage.setItem('levelOne', JSON.stringify(levelOne));
+    sessionStorage.setItem('levelOne', JSON.stringify(levelOneANS));
 } else {
 // Get elements from sessionStorage 
-var levelOne = JSON.parse(sessionStorage.getItem('levelOne'));
+var levelOne = JSON.parse(sessionStorage.getItem('levelOneANS'));
 // Add element to array
-levelOne.push(data);
+levelOneANS.push(data);
 // Re-set back to sessionStorage 
-sessionStorage.setItem('levelOne', JSON.stringify(levelOne));
+sessionStorage.setItem('levelOneANS', JSON.stringify(levelOneANS));
   }
 }
 
