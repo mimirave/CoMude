@@ -3,7 +3,7 @@ let levelTwoPrompt = ["Do you hear a lot of loud fighting in your house?", "Do y
 let levelThreePrompt = ["Are you positive that you will eat dinner tonight and tomorrow?", "Has anyone in your house hurt you recently?", "Has someone in your house made you feel unworthy of love?"]
 sessionStorage.setItem("Mild", JSON.stringify(levelOnePrompt));
 sessionStorage.setItem("Medium", JSON.stringify(levelTwoPrompt));
-sessionStorage.setItem("Intense", JSON.stringify(levelTheePrompt));
+sessionStorage.setItem("Intense", JSON.stringify(levelThreePrompt));
 
 function startFunction(){
   document.GetElementByID("content").innerHTML = JSON.parse(sessionStorage.getItem(levelTwoPrompt));
