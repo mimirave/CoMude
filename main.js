@@ -6,7 +6,7 @@ sessionStorage.setItem("Medium", JSON.stringify(levelTwoPrompt));
 sessionStorage.setItem("Intense", JSON.stringify(levelThreePrompt));
 
 function startFunction(){
-  document.getElementById("content").innerHTML = JSON.parse(sessionStorage.getItem(levelTwoPrompt));
+  document.getElementById("content").innerHTML = JSON.parse(sessionStorage.getItem(levelTwoPrompt[0]));
 }
 
 function myFunction(data) {
