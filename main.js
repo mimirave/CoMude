@@ -1,15 +1,23 @@
+let reponses = newArray(newArray()); 
+
+
+
 function myFunction(data) {
   // Get the existing data
-var existing = localStorage.getItem('responses');
-
-// If no existing data, create an array
-// Otherwise, convert the localStorage string to an array
-existing = existing ? existing.split(',') : [];
-
-// Add new data to localStorage Array
-existing.push(data);
-
-// Save back to localStorage
-sessionStorage.setItem('responses', existing.toString());
+if (sessionStorage .getItem('responses') === null) {
+    //Initialize the array 
+    var responses= [][];
+    //Add to array
+    rotation[0].push(object);
+    //Set to sessionStorage 
+    sessionStorage .setItem('responses', JSON.stringify(responses));
+} else {
+// Get elements from sessionStorage 
+var rotation = JSON.parse(sessionStorage .getItem('rotation'));
+// Add element to array
+rotation.push(data);
+// Re-set back to sessionStorage 
+sessionStorage .setItem('responses', JSON.stringify(responses));
+  }
 }
 
