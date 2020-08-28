@@ -7,7 +7,7 @@ var existing = localStorage.getItem('responses');
 existing = existing ? existing.split(',') : [];
 
 // Add new data to localStorage Array
-existing.push(data.toString());
+existing.push(data);
 
 // Save back to localStorage
 localStorage.setItem('responses', existing.toString());
