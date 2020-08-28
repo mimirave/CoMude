@@ -1,4 +1,4 @@
-var levelOne = [];
+var levelOne = ["In general, do you feel sad?", "Did you eat breakfast today?", "Are you safe?"];
 var levelTwo = [];
 var levelThree = [];
 
