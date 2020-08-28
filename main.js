@@ -7,8 +7,9 @@ function myFunction(data) {
 if (sessionStorage .getItem('responses') === null) {
     //Initialize the array 
     var responses= [];
+    var responses[] = []; 
     //Add to array
-    rotation.push(object);
+    rotation[].push(object);
     //Set to sessionStorage 
     sessionStorage .setItem('responses', JSON.stringify(responses));
 } else {
